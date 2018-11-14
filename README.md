@@ -18,7 +18,7 @@ _A Multithreaded Program For A Bitcoin Mining Simulation._
     * Number of miners (number of threads created) 
 * Miner threads are created of desired amount. After creating all the threads, main thread sets a flag to let miners start. 
 * Miners first calculates the threshold. Threshold will be an unsigned integer for which first n left-most bits are 0 where n is the difficulty.
-    * For example, if the difficulty is 4, the threshold will be 0000 1000 0000 0000 0000 0000 0000 0000. Hence if the difficulty increases, it will be harder to find a smaller number less than the threshold. 
+    * For example, if the difficulty is 4, the threshold will be `0000 1000 0000 0000 0000 0000 0000 0000`. Hence if the difficulty increases, it will be harder to find a smaller number less than the threshold. 
 * If the hash is less than the _**threshold**_, corresponding thread will add that transaction to the chain. The thread finding the solution will increment its private bitcoin count by one. Also, it will increment the shared integer to notify other threads that a solution is found. 
 * Format of the _**input text:**_
     * The first line of the file will be the number of entries in the file. 
