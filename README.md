@@ -11,7 +11,7 @@ _A Multithreaded Program For A Bitcoin Mining Simulation._
  * If this hash value is less than a threshold, i.e., its first n bits are `0`, it will be accepted as a solution. 
  * If a miner finds a desired solution, it gains a **bitcoin**. Moreover, as mentioned above, the winner miner will append the corresponding transaction to the chain of transactions, which will be in a **_linked-list_** form.
 
-##Program Flow
+## Program Flow
 * At the beginning, user will be prompted 3 inputs:
     * Difficulty of mining: between 1-10 (this will decide how hard is the mining problem). 
     * File name from which the transaction IDs are going to be read
