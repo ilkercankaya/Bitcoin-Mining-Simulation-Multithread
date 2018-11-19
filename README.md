@@ -31,4 +31,4 @@ _A Multithreaded Program For A Bitcoin Mining Simulation._
 
 ## Examples
 
-![Example](https://drive.google.com/file/d/14oyTk4MakuXzYlgjNKf5C3pnXBsXn6rk/view?usp=sharing)
+![Example](https://www.dropbox.com/s/ixw7ay9i513846l/Capture.PNG?raw=1)
